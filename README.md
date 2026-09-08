@@ -1,153 +1,84 @@
-![Gunabhiram Aruru — Software Engineer, Applied AI, Agent Systems. An engineering control-room panel showing five stacked control panes: Evidence, Reasoning, Policy, Review and Action, with Policy and Review enclosed inside a control boundary.](assets/hero/engineering-control-room.svg)
-
-<h1 align="center">Gunabhiram Aruru</h1>
+![Gunabhiram Aruru — Software Engineer. Applied AI, Backend Systems, Agent Workflows. Illustration of a developer sitting at a desk, typing on a laptop that shows lines of code with a blinking cursor, beside a small terminal monitor and a cup of coffee.](assets/hero/coding-developer.svg)
 
 <p align="center">
-  <strong>Software Engineer · Applied AI · Agent Systems</strong>
-</p>
-
-<p align="center">
-  M.S. Computer Science @ University of Colorado Boulder<br />
-  AI Specialist Intern @ PROJXON<br />
-  AWS Certified Solutions Architect – Associate (SAA-C03)
-</p>
-
-<p align="center">
-  <a href="https://arurugunabhiram.github.io/"><img src="assets/icons/btn-portfolio.svg" alt="Portfolio" height="38" /></a>
+  <a href="https://www.linkedin.com/in/gunabhiram-aruru/"><img src="assets/icons/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/gunabhiram-aruru/"><img src="assets/icons/btn-linkedin.svg" alt="LinkedIn" height="38" /></a>
+  <a href="https://arurugunabhiram.github.io/"><img src="assets/icons/btn-portfolio.svg" alt="Portfolio" height="34" /></a>
   &nbsp;
-  <a href="mailto:gunabhiram.a@gmail.com"><img src="assets/icons/btn-email.svg" alt="Email" height="38" /></a>
+  <a href="mailto:gunabhiram.a@gmail.com"><img src="assets/icons/btn-email.svg" alt="Email" height="34" /></a>
 </p>
 
 ---
 
-## `SYSTEM://NOW`
+## About me
 
-```yaml
-building:
-  - durable, replayable AI workflows
-  - deterministic guardrails on models
-  - dry-run first, human-approved
-  - evidence-grounded backend services
-
-exploring:
-  - agent architectures, control planes
-  - reliable LLM integration
-  - structured output validation
-  - workflow automation and dev tooling
-
-principle: |
-  model output is an input to a
-  controlled workflow, not authority
-```
-
----
-
-## Featured Systems
-
-### Ember
-
-![Ember system card: persistent task state, orchestration with recovery, routing policy, an approval and dry-run gate, then scoped adapters.](assets/projects/ember.svg)
-
-Durable personal workflow control plane with policy, approvals, dry-run boundaries, and persistent orchestration. Every unit of work is a durable row, recovery is part of the state machine, and no external side effect happens without passing a policy gate.
-
-`Python` · `FastAPI` · `SQLite` · `SQLAlchemy` · `Alembic` · `idempotency + dedupe`
-
-> `private build · active development` — local-first personal project. The model layer is a provider abstraction with deterministic mock execution; no live LLM provider is wired in, and it is not an autonomous job-application agent.
-
-### IncidentPilot
-
-![IncidentPilot system card: failure logs, secret redaction, grounded evidence, a safety gate, then an approved issue.](assets/projects/incidentpilot.svg)
-
-Grounded CI/test-failure investigation with redaction, verified evidence and approval-gated GitHub actions. Repository reads are path-confined, secrets are redacted before anything is written, and evidence is re-read rather than trusted from memory.
-
-**→ [github.com/AruruGunabhiram/IncidentPilot](https://github.com/AruruGunabhiram/IncidentPilot)**
-
-`Python` · `FastAPI` · `deterministic log analysis` · `confidence gates` · `optional LLM narrative refinement`
-
-> **Scope:** local-first. It investigates and reports — it does not remediate on its own. An optional Gemini pass may refine wording; the deterministic report remains authoritative.
-
-### OrkaFin
-
-![OrkaFin system card: request with identity, trusted context, permission boundary, grounding check, then a confirmed action.](assets/projects/orkafin.svg)
-
-Permission-aware, source-grounded recruiting guidance with deterministic authority boundaries and explicit action confirmation. Context is resolved from trusted sources, fields are redacted per permission, and actions are revalidated at the moment of confirmation.
-
-**→ [github.com/AruruGunabhiram/OrkaFin](https://github.com/AruruGunabhiram/OrkaFin)**
-
-`Python` · `FastAPI` · `SQLite` · `permission model` · `grounding validation`
-
-> **Scope:** locally runnable prototype against a synthetic ATS environment — not an autonomous agent and not a live production integration. An optional LLM adapter handles wording only.
-
----
-
-## More Engineering
-
-### [SocialLens](https://github.com/AruruGunabhiram/SocialLens)
-
-Full-stack YouTube analytics with public-data ingestion, persistent metric snapshots and trend visualization. Daily snapshots are retained so trends are measured rather than estimated.
-
-`Java` · `Spring Boot` · `React` · `TypeScript` · `PostgreSQL` · `Flyway` · `YouTube Data API`
-
-### [Clinical Reconciliation](https://github.com/AruruGunabhiram/clinical-reconciliation)
-
-LLM-assisted medication reconciliation prototype with deterministic scoring, structured validation and fallback behavior. Records are supplied manually; the deterministic path stays intact when the model path is unavailable.
-
-`Python` · `FastAPI` · `React` · `Anthropic Claude` · `Pydantic` · `Docker`
-
-> **Scope:** prototype only. No EHR integration, no FHIR/HL7, and not clinically validated decision support.
-
----
-
-## Engineering Philosophy
-
-![Authority pipeline: untrusted input, then grounding, then policy, then human review, then action. Each stage is labelled with what it contributes.](assets/systems/authority-pipeline.svg)
-
-The systems above keep converging on the same shape. A model's output arrives as **untrusted input**. It is **grounded** against real sources, constrained by **policy** — scope, permissions, redaction — and, wherever it would cause a real side effect, it waits for **human review** before it becomes an **action**.
-
-I build AI-enabled systems this way because the interesting engineering is not the model call. It is everything that decides whether the model's answer is allowed to matter: what it is checked against, what it is permitted to touch, and who signs off before anything changes.
-
-Not every project implements all five stages identically — this is the pattern I design toward, not a uniform checklist.
-
----
-
-## Experience
-
-- **AI Specialist Intern** — PROJXON · Jun 2026 – Present
-- **Software Engineer Intern** — InfiniAI Technologies Pvt. Ltd. · Aug 2024 – Jan 2025 · Hyderabad, India
-
-## Leadership · Education · Certification
-
-- **President of Outreach** — Graduate and Professional Student Government, University of Colorado Boulder · Apr 2026 – Present
-- **M.S. Computer Science** — University of Colorado Boulder · Aug 2025 – May 2027
-- **AWS Certified Solutions Architect – Associate** — SAA-C03
-
----
+- M.S. Computer Science @ CU Boulder
+- AI Specialist Intern @ PROJXON
+- Building AI-enabled backend + automation systems
+- AWS Certified Solutions Architect – Associate (SAA-C03)
 
 ## Tech Stack
 
-**Languages** — `Python` · `Java` · `TypeScript` · `JavaScript`
-
-**Backend / Systems** — `FastAPI` · `Spring Boot` · `Node.js`
-
-**Frontend** — `React`
-
-**Data** — `PostgreSQL` · `SQLite`
-
-**Infrastructure** — `AWS` · `Docker` · `GitHub Actions`
-
-**Applied AI** — LLM integration · agent workflows · grounding and structured outputs
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=1a1a1a" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
 
 ---
 
-<p align="center">
-  <a href="https://arurugunabhiram.github.io/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/gunabhiram-aruru/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:gunabhiram.a@gmail.com">gunabhiram.a@gmail.com</a>
-</p>
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>IncidentPilot</h3>
+      <p>Grounded CI/test-failure investigation with redaction, verified evidence and approval-gated GitHub actions.</p>
+      <p><code>Python</code> · <code>FastAPI</code></p>
+      <p><a href="https://github.com/AruruGunabhiram/IncidentPilot">View repo →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>OrkaFin</h3>
+      <p>Permission-aware, source-grounded recruiting guidance with explicit action confirmation.</p>
+      <p><code>Python</code> · <code>FastAPI</code> · <code>SQLite</code></p>
+      <p><a href="https://github.com/AruruGunabhiram/OrkaFin">View repo →</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>SocialLens</h3>
+      <p>Full-stack YouTube analytics with public-data ingestion and daily metric snapshots.</p>
+      <p><code>Java</code> · <code>Spring Boot</code> · <code>React</code> · <code>PostgreSQL</code></p>
+      <p><a href="https://github.com/AruruGunabhiram/SocialLens">View repo →</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Clinical Reconciliation</h3>
+      <p>LLM-assisted medication reconciliation prototype with deterministic scoring and structured validation.</p>
+      <p><code>Python</code> · <code>FastAPI</code> · <code>React</code></p>
+      <p><a href="https://github.com/AruruGunabhiram/clinical-reconciliation">View repo →</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Currently building
+
+**Ember** — a private personal workflow system: durable task state, policy routing, and an approval + dry-run gate before anything runs.
+
+`Python` · `FastAPI` · `SQLite`
 
 <p align="center">
   <sub>Open to Software Engineering, Applied AI and Agent Systems roles · Boulder, Colorado</sub>
