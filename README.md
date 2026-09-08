@@ -1,4 +1,4 @@
-![Gunabhiram Aruru — Software Engineer. Applied AI, Backend Systems, Agent Workflows. Illustration of a developer sitting at a desk, typing on a laptop that shows lines of code with a blinking cursor, beside a small terminal monitor and a cup of coffee.](assets/hero/coding-developer.svg)
+![Gunabhiram Aruru - Software Engineer. Applied AI, Backend Systems, Agent Workflows. Illustration of a developer sitting at a desk, typing on a laptop that shows lines of code with a blinking cursor, beside a small terminal monitor and a cup of coffee.](assets/hero/coding-developer.svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gunabhiram-aruru/"><img src="assets/icons/btn-linkedin.svg" alt="LinkedIn" height="34" /></a>
@@ -15,26 +15,34 @@
 - M.S. Computer Science @ CU Boulder
 - AI Specialist Intern @ PROJXON
 - Building AI-enabled backend + automation systems
-- AWS Certified Solutions Architect – Associate (SAA-C03)
+- AWS Certified Solutions Architect - Associate (SAA-C03)
 
 ## Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-E76F00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=1a1a1a" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<p align="center">
+  <img src="assets/icons/tech/python.svg" alt="Python" height="100" />
+  <img src="assets/icons/tech/java.svg" alt="Java" height="100" />
+  <img src="assets/icons/tech/typescript.svg" alt="TypeScript" height="100" />
+  <img src="assets/icons/tech/javascript.svg" alt="JavaScript" height="100" />
+  <img src="assets/icons/tech/cplusplus.svg" alt="C++" height="100" />
+  <img src="assets/icons/tech/fastapi.svg" alt="FastAPI" height="100" />
 </p>
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+
+<p align="center">
+  <img src="assets/icons/tech/springboot.svg" alt="Spring Boot" height="100" />
+  <img src="assets/icons/tech/react.svg" alt="React" height="100" />
+  <img src="assets/icons/tech/flask.svg" alt="Flask" height="100" />
+  <img src="assets/icons/tech/postgresql.svg" alt="PostgreSQL" height="100" />
+  <img src="assets/icons/tech/sqlite.svg" alt="SQLite" height="100" />
+  <img src="assets/icons/tech/aws.svg" alt="AWS" height="100" />
+</p>
+
+<p align="center">
+  <img src="assets/icons/tech/gcp.svg" alt="GCP" height="100" />
+  <img src="assets/icons/tech/docker.svg" alt="Docker" height="100" />
+  <img src="assets/icons/tech/githubactions.svg" alt="GitHub Actions" height="100" />
+  <img src="assets/icons/tech/git.svg" alt="Git" height="100" />
+  <img src="assets/icons/tech/flutter.svg" alt="Flutter" height="100" />
 </p>
 
 ---
@@ -76,7 +84,7 @@
 
 ## Currently building
 
-**Ember** — a private personal workflow system: durable task state, policy routing, and an approval + dry-run gate before anything runs.
+**Ember** - a private personal workflow system: durable task state, policy routing, and an approval + dry-run gate before anything runs.
 
 `Python` · `FastAPI` · `SQLite`
 
